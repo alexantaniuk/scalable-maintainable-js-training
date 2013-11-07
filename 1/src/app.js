@@ -1,40 +1,6 @@
 var APP = APP || {};
 
 APP.init = function() {
-	/*var quizFactrory = new APP.QuizFactory();
-
-	APP.EventBus.bind('finished', function(element, points) {
-		var results = new APP.Results(element, {
-			points: points
-		});
-		results.show();
-	}, this);
-
-	$.getJSON('questions.json', function(questions) {
-		// $quiz.quiz({
-		// 	questions: questions,
-		// 	finished: function(points) {
-		// 		$quiz.results({
-		// 			points: points
-		// 		}).results('show');
-		// 	}
-		// }).quiz('start');
-		var quiz1 = quizFactrory.createQuiz($('.quiz-1'), {
-			questions: questions
-		});
-		quiz1.start();
-
-		var quiz2 = quizFactrory.createQuiz($('.quiz-2'), {
-			questions: questions
-		});
-		quiz2.start();
-
-		var modules = quizFactrory.modules();
-		for (id in modules) {
-			console.log(modules[id]);
-		}
-	});*/
-
 	var pathToQuestions = 'questions.json';
 
 	var $quiz1 = $('.quiz-1'),
