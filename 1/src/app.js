@@ -43,9 +43,4 @@ APP.init = function() {
 		questions: pathToQuestions
 	});
 	quiz4.start();
-
-	var modules = quizFactrory.modules();
-	for (id in modules) {
-		console.log(modules[id]);
-	}
 };
